@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158158880289",
+    "firebase_url": "https://ifwebtoons-project.firebaseio.com",
+    "project_id": "ifwebtoons-project",
+    "storage_bucket": "ifwebtoons-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158158880289:android:098df0c9afa3410061ad60",
+        "android_client_info": {
+          "package_name": "app.uangkas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158158880289-1lgk749naspvm07anfb35bs80npojthb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD20P_hEeZS6hMKahYdUwlJWmwSYd2rrJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158158880289-1lgk749naspvm07anfb35bs80npojthb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

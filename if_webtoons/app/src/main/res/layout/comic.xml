@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comic">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:text="FREE COMIC"
+                android:textSize="34sp"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="14dp"
+            >
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:id="@+id/kamvret"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/banner_kamvret" />
+
+                    <TextView
+                        android:text="kamvret lyfe"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sinopalcerah" />
+
+                    <TextView
+                        android:text="Si nopaal"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/comic2" />
+
+                    <TextView
+                        android:text="garudayana"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/nadiracerah" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="horor"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="88dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/son" />
+
+                    <TextView
+                        android:text="soul of neko"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/she" />
+
+                    <TextView
+                        android:text="the mafia"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="121dp"
+                        android:layout_height="82dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/comic3" />
+
+                    <TextView
+                        android:text="love invers"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="73dp"
+                        android:layout_height="74dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/narutoshippude" />
+
+                    <TextView
+                        android:text="Naruto"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="104dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/one_piece" />
+
+                    <TextView
+                        android:text="one piece"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="104dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/blue" />
+
+                    <TextView
+                        android:text="b serenade"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/boruto" />
+
+                    <TextView
+                        android:text="boruto"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="107dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/poster_soul" />
+
+                    <TextView
+                        android:text="SON 2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

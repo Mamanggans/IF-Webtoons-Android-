@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r"/>
+	<classpathentry kind="src" path="app/build/generated/not_namespaced_r_class_sources/debug/r"/>
+	<classpathentry kind="src" path="app/build/generated/not_namespaced_r_class_sources/release/r"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/release"/>
+	<classpathentry kind="src" path="app/src/androidTest/java"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="src" path="app/src/test/java"/>
+	<classpathentry kind="lib" path="app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/merged_java_res/release/out.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/cf8efc44e579c999e4b08116c032d42f50ac69b3d856666b15d0218eaeb5b0dd_0.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/cf8efc44e579c999e4b08116c032d42f50ac69b3d856666b15d0218eaeb5b0dd_1.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/cf8efc44e579c999e4b08116c032d42f50ac69b3d856666b15d0218eaeb5b0dd_2.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/cf8efc44e579c999e4b08116c032d42f50ac69b3d856666b15d0218eaeb5b0dd_3.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/release/out/49f679bae80b852145f78b25a7b2c2e2c7df8d87033c58ac42a590e2bdaec44f_0.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/release/out/49f679bae80b852145f78b25a7b2c2e2c7df8d87033c58ac42a590e2bdaec44f_1.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/transforms/mergeJavaRes/debug/0.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/incremental-verifier/debug"/>
+</classpath>
